@@ -1,0 +1,52 @@
+body{
+    background-color: #F08AB1;
+}
+
+.container{
+    background-color: #fff;
+    width: 40%;
+    height: 60vh;
+    margin: 150px auto;
+    padding: 20px;
+    box-shadow: 1px 7px 17px #888888;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card img{
+    width: 50px;
+    float: left;
+}
+
+#clear-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.color-option {
+    list-style: none;
+    background-color: #888888;
+}
+
+.color-option li {
+    background-color: chartreuse;
+    padding: 10px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.color-option li:first-child {
+    background-color: #333;
+}
+
+.color-option li:nth-child(2) {
+    background-color: #F00;
+}
+
+.color-option li:nth-child(3) {
+    background-color: #080;
+}
